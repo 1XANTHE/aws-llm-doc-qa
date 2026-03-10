@@ -1,1 +1,93 @@
-AWS Documentation Dataset
+## Amazon EC2
+Source: AWS Official Documentation (https://docs.aws.amazon.com/ec2/)
+
+Amazon Elastic Compute Cloud (EC2) is a cloud computing service that provides scalable virtual servers called instances. It allows users to launch and manage computing resources on demand without purchasing physical hardware. EC2 enables developers and organizations to quickly scale computing capacity depending on workload requirements.
+
+Key Features:
+- On-demand virtual servers known as EC2 instances
+- Multiple instance types optimized for different workloads
+- Auto Scaling to automatically adjust capacity
+- Integration with services such as Amazon S3, VPC, and CloudWatch
+- Pay-as-you-go pricing model
+
+Common Use Cases:
+- Web application hosting
+- High performance computing
+- Batch processing
+- Machine learning workloads
+
+
+## Amazon S3
+Source: AWS Official Documentation (https://docs.aws.amazon.com/s3/)
+
+Amazon Simple Storage Service (S3) is an object storage service designed to store and retrieve large amounts of data from anywhere on the internet. Data in S3 is stored as objects within containers called buckets. The service is known for high durability, availability, and scalability.
+
+Key Features:
+- Object storage architecture
+- High durability and availability
+- Scalable storage capacity
+- Data versioning and lifecycle management
+- Encryption and security controls
+
+Common Use Cases:
+- Backup and archival storage
+- Static website hosting
+- Data lakes and analytics storage
+- Media storage and distribution
+
+
+## AWS Lambda
+Source: AWS Official Documentation (https://docs.aws.amazon.com/lambda/)
+
+AWS Lambda is a serverless computing service that allows developers to run code without provisioning or managing servers. Applications run in response to events such as HTTP requests, file uploads, or database changes. Lambda automatically manages scaling and execution environments.
+
+Key Features:
+- Event-driven compute service
+- Automatic scaling
+- No server management required
+- Integration with many AWS services
+- Pay only for compute time used
+
+Common Use Cases:
+- Backend APIs
+- Real-time file processing
+- Automation tasks
+- Serverless web applications
+
+
+## Amazon API Gateway
+Source: AWS Official Documentation (https://docs.aws.amazon.com/apigateway/)
+
+Amazon API Gateway is a managed service that enables developers to create, publish, maintain, and secure APIs at scale. It acts as a gateway between clients and backend services such as Lambda functions or EC2 applications.
+
+Key Features:
+- Create and manage RESTful and HTTP APIs
+- Traffic management and throttling
+- Authentication and authorization controls
+- Integration with AWS Lambda and other services
+- Monitoring using Amazon CloudWatch
+
+Common Use Cases:
+- Building REST APIs
+- Connecting front-end applications with backend services
+- Microservices architectures
+- Serverless application backends
+
+
+## Amazon DynamoDB
+Source: AWS Official Documentation (https://docs.aws.amazon.com/dynamodb/)
+
+Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance. It supports key-value and document data models and automatically scales to handle large amounts of traffic.
+
+Key Features:
+- Managed NoSQL database
+- Single-digit millisecond latency
+- Automatic scaling
+- Built-in security and backup
+- High availability with multi-region support
+
+Common Use Cases:
+- Mobile and web application databases
+- Gaming applications
+- Real-time analytics
+- IoT data storage
